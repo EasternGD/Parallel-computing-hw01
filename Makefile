@@ -12,10 +12,10 @@ main-v1.exe: main.o v1/mmm.o
 main-v2.exe: main.o v2/mmm.o
 	$(CC) $(CFLAGS) $< -o $@ v2/mmm.o
 
-clean: 
-	rm *.exe *.o v1/*.o v2/*.o
+clean:
+	rm *.exe *.o v1/*.o v2/*.o *.out
 
-test:
+test:main-v1.exe main-v2.exe
 	echo "01.dat" "01-v1.out" | ./main-v1.exe
 	echo "02.dat" "02-v1.out" | ./main-v1.exe
 	echo "03.dat" "03-v1.out" | ./main-v1.exe
