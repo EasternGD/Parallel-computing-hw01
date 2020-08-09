@@ -1,6 +1,6 @@
 # Parallel-computing-hw01
 
-## About The Project
+## About The Assignment
 In this assignment, you are to write a general matrix-matrix multiplication (MMM) program. The program executes the following procedure:
 1. Ask its user to enter a filename.
 2. Read the first line of the specified file. The file contains two matrices in the format specified in Figure 1, and examples in Figure 2.
