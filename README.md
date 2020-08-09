@@ -36,7 +36,7 @@ git clone https://github.com/EasternGD/Parallel-computing-hw01.git
 make test
 ```
 
-## Result
+## Example Result
 01.dat
 ```sh
 1 3 3 1	
